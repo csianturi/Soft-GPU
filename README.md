@@ -1,4 +1,6 @@
-# Temu 5080
+# Soft-GPU: Hardware Graphics Accelerator aka Temu 5080
+
+<img width="456" height="348" alt="Recording 2026-11-23 002847" src="https://github.com/user-attachments/assets/4ea72c85-16f0-4d3e-b6d9-abc772919e63" />
 
 Temu 5080 is an FPGA triangle rasterizer for the AMD Kria KR260. It draws triangles with interpolated vertex colors into a 320 × 240 framebuffer. The included PYNQ notebook uses the rasterizer to render a cube and display the result in Jupyter.
 
@@ -18,6 +20,7 @@ The FPGA clips the triangle's bounding box to the framebuffer, uses edge tests t
 
 | File | Purpose |
 | --- | --- |
+
 | [GPUPYNQ.ipynb](GPUPYNQ.ipynb) | PYNQ host code and rendering demos |
 | [soft_gpu.cpp](soft_gpu.cpp) | HLS C++ source for the triangle rasterizer |
 | [softGPU.bit](softGPU.bit) | FPGA bitstream for the KR260 |
