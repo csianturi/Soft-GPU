@@ -18,10 +18,7 @@ The FPGA clips the triangle's bounding box to the framebuffer, uses edge tests t
 
 ## Repository files
 
-| File | Purpose |
-| --- | --- |
-
-| [GPUPYNQ.ipynb](GPUPYNQ.ipynb) | PYNQ host code and rendering demos |
-| [soft_gpu.cpp](soft_gpu.cpp) | HLS C++ source for the triangle rasterizer |
-| [softGPU.bit](softGPU.bit) | FPGA bitstream for the KR260 |
-| [softGPU.hwh](softGPU.hwh) | Hardware metadata for the PYNQ overlay |
+- [`GPUPYNQ.ipynb`](GPUPYNQ.ipynb) — PYNQ host code and rendering demos
+- [`soft_gpu.cpp`](soft_gpu.cpp) — HLS C++ source for the triangle rasterizer
+- [`softGPU.bit`](softGPU.bit) — FPGA bitstream for the KR260
+- [`softGPU.hwh`](softGPU.hwh) — Hardware metadata for the PYNQ overlay
