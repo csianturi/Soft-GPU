@@ -4,7 +4,7 @@
 </div>
 Temu 5080 is an FPGA triangle rasterizer for the AMD Kria KR260. It draws triangles with interpolated vertex colors into a 320 × 240 framebuffer. The included PYNQ notebook uses the rasterizer to render a cube and display the result in Jupyter.
 
-## How rendering works
+## Rendering
 
 Python rotates and projects the cube vertices to screen coordinates, orders the triangles by depth, and sends them to the FPGA through AXI DMA. Each triangle consists of nine values in the order `x, y, color` for each of its three vertices. Colors are packed as `0x00RRGGBB`.
 
